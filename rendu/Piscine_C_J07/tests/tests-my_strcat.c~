@@ -1,0 +1,17 @@
+/*
+** tests-my_strcat.c for tests-my_strcat in /home/wuilla_j/rendu/Piscine_C_J07/tests
+** 
+** Made by Julien Wuillaume
+** Login   <wuilla_j@epitech.net>
+** 
+** Started on  Tue Oct  6 14:19:30 2015 Julien Wuillaume
+** Last update Tue Oct  6 14:56:54 2015 Julien Wuillaume
+*/
+
+void	main()
+{
+  char	str[] = "Salut.";
+  char	str2[] = "Ca va ?";
+  
+  my_strcat(str, str2);
+}

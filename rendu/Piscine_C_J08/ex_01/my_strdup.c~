@@ -1,0 +1,29 @@
+/*
+** my_strdup.c for my_strdup in /home/wuilla_j/rendu/Piscine_C_J08/ex_01
+**
+** Made by Julien Wuillaume
+** Login   <wuilla_j@epitech.net>
+**
+** Started on  Wed Oct  7 09:15:54 2015 Julien Wuillaume
+** Last update Wed Oct  7 09:19:36 2015 Julien Wuillaume
+*/
+
+#include <stdlib.c>
+
+char	*my_strdup(char *src)
+{
+
+}
+
+int	main()
+{
+  char	*str;
+  char	*str_cpy;
+
+  str[0] = 'a';
+  str[1] = 'b';
+  str[2] = 'c';
+  str[3] = '\0';
+  str_cpy = my_strdup(str);
+  my_putstr(str_cpy);
+}

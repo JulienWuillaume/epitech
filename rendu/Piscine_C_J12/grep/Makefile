@@ -1,0 +1,29 @@
+##
+## Makefile for Makefile in /home/wuilla_j/rendu/Piscine_C_J12/grep
+##
+## Made by Julien Wuillaume
+## Login   <wuilla_j@epitech.net>
+##
+## Started on  Tue Oct 13 14:29:45 2015 Julien Wuillaume
+## Last update Tue Oct 13 14:33:51 2015 Julien Wuillaume
+##
+
+NAME =		grep
+
+SRC =		$(NAME).c
+
+LIB =		my
+
+LIB_PATH =	../lib/
+
+CC =		cc
+
+all: $(NAME)
+
+$(NAME):
+	$(CC) -o $(NAME) $(SRC) -L$(LIB_PATH) -l$(LIB)
+
+fclean:
+	rm $(NAME)
+
+re: fclean all
